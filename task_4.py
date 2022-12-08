@@ -10,7 +10,7 @@ k = int(input('Введите натуральную степень К= '))
 equation = 0
 
 for i in range(1, k + 2):
-    i = randint(1, 100)
+    i = randint(0, 100)
     list.append(i)
 
 print(list)
